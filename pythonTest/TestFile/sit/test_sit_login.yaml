@@ -1,0 +1,25 @@
+- #用例1
+    casename: 正常用户1
+    phoneno: 13524661252
+    password: qwe123
+    errormsg:
+- #用例2
+    casename: 正常用户2
+    phoneno: 13524661253
+    password: qwe123
+    errormsg:
+- #用例3
+    casename: 密码错误
+    phoneno: 13512312313
+    password: 123123
+    errormsg: "登录用户名或密码错误!"
+- #用例4
+    casename: 手机号为空
+    phoneno:
+    password: 123123
+    errormsg: "请输入手机号/身份证号"
+- #用例5
+    casename: 密码为空
+    phoneno: 13524674836
+    password:
+    errormsg: "请输入密码"

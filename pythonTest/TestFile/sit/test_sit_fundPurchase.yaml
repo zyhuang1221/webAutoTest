@@ -1,0 +1,5 @@
+- #用例1
+    casename: 正常申购
+    phoneno: 13524661252
+    password: qwe123
+    errormsg:
